@@ -16,10 +16,7 @@ int main()
        SecondaryDiagonalSum+=a[4-i][i];
 
     }
-    /*for(int i=0;i<5;i++)
-    {
-        SecondaryDiagonalSum+=a[i][4-i];
-    }*/
+   
     cout<<"Primary Diagonal Sum : " <<PrimaryDiagonalSum<<endl;
     cout<<"Secondary Diagonal sum : " <<SecondaryDiagonalSum<<endl;
 }
